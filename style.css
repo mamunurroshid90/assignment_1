@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background: lightgray;
+}
+
+section {
+  width: 80%;
+  background-color: #fff;
+  margin: auto;
+}
+
+/* Hero section star */
+.hero-section {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-info {
+  width: 45%;
+}
+
+.hero-details {
+  width: 60%;
+  line-height: 28px;
+  color: #3e3e3e;
+}
+
+.hero-section h1 {
+  font-size: 60px;
+  color: #333333;
+  line-height: 80px;
+}
+
+.btn {
+  padding: 10px 18px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff5959;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 19px 0px 33px 0px;
+}
+
+.hero-section .img img {
+  width: 400px;
+  height: 500px;
+  margin-left: 134px;
+}
+/* Hero section end */
+
+/* Mission section start */
+.mission-section {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0px;
+}
+
+.mission-section h1 {
+  text-align: center;
+  color: #13103a;
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 48px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.cards .card {
+  padding: 25px 13px 45px 32px;
+  border-radius: 26px;
+}
+
+.cards .card h3 {
+  padding: 12px 0px 16px 0px;
+  font-size: 24px;
+}
+
+.cards .card p {
+  color: #424242;
+  line-height: 24px;
+}
+
+.mission-section img {
+  width: 150px;
+  height: 150px;
+}
+/* Mission section end */
+
+/* Develop section start here  */
+.develop-section {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.develop-section .img img {
+  width: 400px;
+  height: 400px;
+  margin-right: 72px;
+}
+
+.develop-info h3 {
+  color: #333333;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.develop-info p {
+  color: #3e3e3e;
+  font-size: 18px;
+  line-height: 30px;
+}
+/* Develop section end here  */
+
+/* Application section start here */
+.app-section {
+  width: 80%;
+  margin: auto;
+}
+
+.app-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-section .img img {
+  height: 450px;
+  margin-right: 163px;
+}
+
+.app-details {
+  width: 50%;
+}
+
+.app-details h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 131%;
+}
+
+.app-details p {
+  color: #3e3e3e;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.app-section h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 85px;
+}
+/* Application section end here */
+
+footer {
+  /* width: 80%; */
+  height: 180px;
+  margin: auto;
+  background: #0b0d17;
+  text-align: center;
+}
+
+footer h3 {
+  color: #fff;
+  font-size: 36px;
+  padding: 39px 0px 24px 0px;
+}
+
+footer p {
+  color: #d9dbe1;
+  font-size: 14px;
+}
+/* Footer section end here */
+
+@media screen and (max-width: 480px) {
+  /* Hero section start */
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-info {
+    width: 100%;
+  }
+  .hero-info h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .hero-details {
+    width: 90%;
+    line-height: 18px;
+  }
+
+  .hero-info {
+    width: 100%;
+  }
+
+  .hero-section .img img {
+    margin: auto;
+    width: 300px;
+    height: 400px;
+  }
+  /* Hero section end */
+
+  /* Mission section start  */
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+  /* Mission section end */
+
+  /* Develop section start */
+  .develop-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .develop-info h3 {
+    font-size: 30px;
+    line-height: 40px;
+    padding: 15px 0px;
+  }
+
+  .develop-section .img img {
+    margin: auto;
+    width: 98%;
+    object-fit: cover;
+  }
+  /* Develop section end */
+
+  /* Application section start */
+  .app-section h1 {
+    font-size: 36px;
+    padding-bottom: 40px;
+  }
+
+  .app-section .img img {
+    width: 98%;
+  }
+  .app-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-details {
+    width: 100%;
+  }
+  .app-details h2 {
+    font-size: 36px;
+    line-height: 100%;
+    padding-bottom: 30px;
+  }
+}
+/* Application section end  */
