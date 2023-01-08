@@ -191,6 +191,11 @@ footer p {
 /* Footer section end here */
 
 @media screen and (max-width: 480px) {
+  section {
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
+  }
   /* Hero section start */
   .hero-section {
     display: flex;
